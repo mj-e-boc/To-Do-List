@@ -1,1 +1,0 @@
-(()=>{"use strict";[{description:"first",completed:!0,index:1}].forEach((({description:e,completed:t,index:n})=>{const d=document.createElement("li");d.classList.add("task"),d.innerHTML=`\n<h1>${e}</h1>\n<h2>${t}</h2>\n<p>${n}</p>\n`,document.querySelector(".todo").appendChild(d)}))})();
