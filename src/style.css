@@ -1,0 +1,68 @@
+:root {
+  --bottom-border-color: #d1d1d3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 16%) 0 3px 6px, rgb(0 0 0 / 23%) 0 3px 6px;
+}
+
+.div-heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--bottom-border-color);
+  padding: 12px;
+  align-items: center;
+}
+
+.reload-image {
+  width: 24px;
+  height: 24px;
+}
+
+ul#to-do-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 20px;
+}
+
+li.each-task {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid var(--bottom-border-color);
+}
+
+.three-dots {
+  width: 30px;
+  height: 30px;
+}
+
+.clear-all {
+  display: flex;
+  width: 100%;
+  padding: 17px;
+  justify-content: center;
+  background: #f1f1f4;
+}
