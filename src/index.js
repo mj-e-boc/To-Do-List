@@ -14,22 +14,22 @@ const tasks = [
   {
     description: 'Wash the dishes',
     completed: true,
-    index: 5,
+    index: 4,
   },
   {
     description: 'Complete to do list',
     completed: true,
-    index: 4,
+    index: 3,
   },
   {
     description: 'Make a Cake',
     completed: true,
-    index: 3,
+    index: 2,
   },
   {
     description: 'Shopping for the weekend',
     completed: true,
-    index: 2,
+    index: 1,
   },
 ];
 
