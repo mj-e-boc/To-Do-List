@@ -1,43 +1,33 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: {
-    index: "./src/index.js",
-  },
-  mode: "development",
+  mode: 'development',
+  entry: './src/index.js',
   devServer: {
-    static: "./dist",
+    static: './dist',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: './src/index.html',
     }),
-    new NodePolyfillPlugin(),
   ],
   output: {
-    filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    publicPath: '/',
   },
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
-  },
-  optimization: {
-    runtimeChunk: "single",
-  },
-  resolve: {
-    extensions: [".ts", ".js"],
-    fallback: {
-      child_process: false,
-      fs: false,
-      os: false,
-      path: false,
-    },
   },
 };
