@@ -9,69 +9,59 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ ](#faq)
 - [📝 License](#license)
 
-# 📖 [To-do-list] <a name="about-project"></a>
+# 📖 Todo list <a name="about-project"></a>
 
-[To do list is an application for creating and organising tasks to do]
+To do list is an application for creating and organising tasks todos. It is build with HTML, CSS and Javascript.
 
-**[To-do-list]** is an editing system activities to
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Built with HTML, CSS and Javascript
-
 <details>
-  <summary>Client</summary>
+  <summary>Frontend</summary>
   <ul>
     <li><a href="https://reactjs.org/](https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">JavaScript</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- Shows the Available books on the site
-- Shows the Title of the book
-- Shows the Author of the book
-- Keeps the list even if the page is refreshed
-
-- **[Personal_Projects]**
-- **[Design_SKills]**
+- Shows the Available Tasks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+<!-- - [Live Demo Link]() -->
+Live Demo will added soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Open terminal on your computer, clone the project, go live and view the website
-
 ### Prerequisites
 
 In order to run this project you need:
 
-A computer with terminal
+- A computer with terminal
 
 ### Setup
 
 Clone this repository to your desired folder:
-git clone https://github.com/mj-e-boc/M-J-Portfolio.git
 
+```sh
+git clone https://github.com/mj-e-boc/M-J-Portfolio.git
+```
 open the project using:
 cd folder-name
 
@@ -85,19 +75,13 @@ cd folder-name
 - Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ronald-mjonono-86365988/)
 
-👤 **Ricardo Egas**
-
-- GitHub: [@githubhandle](https://github.com/RicardoEgas)
-- Twitter: [@twitterhandle](https://twitter.com/RjEgas)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ricardo-egas-952125136)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Recent_projects]**
-- [ ] **[Contact_section]**
-- [ ] **[Desktop_view]**
+- [ ] **Add Drug and Drop Task**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +89,7 @@ cd folder-name
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mj-e-boc/Awesome-Books/issues).
+Feel free to check the [issues page](https://github.com/mj-e-boc/To-Do-List/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,20 +105,17 @@ I would like to thank the microverse Alumni that keep inspiring me to code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-- **[How_to_get_in_touch]**
+- **Can I use this project?**
 
-  - [check_contact_section_above]
+  - Under MIT license you can use this project.
 
-- **[You_open_for_new_ideas]**
-
-  - [The_more_the_better]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/mj-e-boc/Amapiano-Festival/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/mj-e-boc/To-Do-List/blob/webpack-setup/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
