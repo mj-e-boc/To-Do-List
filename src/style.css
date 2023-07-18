@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 16% 0;
 }
 
 main {
@@ -27,16 +28,58 @@ main {
 
 .div-heading {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  border-bottom: 1px solid var(--bottom-border-color);
-  padding: 12px;
   align-items: center;
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid var(--bottom-border-color);
 }
 
 .reload-image {
   width: 24px;
   height: 24px;
+}
+
+.list-adding {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid var(--bottom-border-color);
+  display: flex;
+  align-items: center;
+}
+
+.list-adding:hover {
+  background: #e4e4ff;
+  border: 1px solid #86f91f;
+}
+
+#add-new-list {
+  width: 100%;
+  padding: 4px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+#add-new-list::placeholder {
+  font-style: italic;
+}
+
+.addbutton {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.addicon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.addicon:hover {
+  transform: scale(1.2);
 }
 
 ul#to-do-list {
@@ -54,15 +97,51 @@ li.each-task {
   border-bottom: 1px solid var(--bottom-border-color);
 }
 
+.each-task:hover {
+  background: #d0f5cf;
+  transform: translateY(-2px);
+}
+
+.check-tag {
+  display: flex;
+  gap: 12px;
+  width: 80%;
+}
+
+input.task-desc {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.delbin {
+  background: none;
+  outline: none;
+  border: none;
+}
+
 .three-dots {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.three-dots:hover {
+  transform: scale(1.1);
 }
 
 .clear-all {
   display: flex;
+  justify-content: center;
   width: 100%;
   padding: 17px;
-  justify-content: center;
   background: #f1f1f4;
 }
