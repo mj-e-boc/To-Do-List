@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ToDoList</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
 </head>
 <body>
-  <main>
-    <div class="div-heading">
-      <h1>Today's To Do</h1>
-    </div>
+    <main>
+        <!-- Main heading of the to-do-list -->
+        <div class="ifempty"></div>
+        <div class="div-heading">
+            <h1>Today's To Do</h1>
+        </div>
+        <!-- Div to add a new list with form element input -->
+        <div class="list-adding">
 
-    <div class="list-adding">
-      <input type="text" placeholder="Add to your list..." id="add-new-list">
-      <button type="button" class="addbutton">
-        <img src="./enter.png" alt="addicon" class="addicon">
-      </button>
-    </div>
-
-    <ul id="to-do-list"></ul>
-
-    <div class="clear-all">
-      <p class="clear-all-p">Clear all completed</p>
-    </div>
-  </main>
-
-  <script src="./script.js"></script>
+        </div>
+        <!-- To Do list -->
+        <ul id="to-do-list"></ul>
+        <!-- clear all feature div -->
+        <button class="clear-all" type="button">Clear all completed</button>
+    </main>
 </body>
 </html>
