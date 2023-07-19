@@ -5,13 +5,13 @@ export function updateStatus(taskId, complete, tasks) {
     }
   });
 
-  localStorage.setItem("todolist", JSON.stringify(tasks));
+  localStorage.setItem('todolist', JSON.stringify(tasks));
 }
 
 export function clearCompleted(tasks, setIndex, ulList, displayList) {
   tasks = tasks.filter((task) => !task.complete);
   setIndex();
-  localStorage.setItem("todolist", JSON.stringify(tasks));
-  ulList.innerHTML = "";
+  localStorage.setItem('todolist', JSON.stringify(tasks));
+  ulList.innerHTML = '';
   displayList();
 }
