@@ -2,6 +2,7 @@ import './style.css';
 import reIcon from './recycle.png';
 import tdIcon from './3dotd.png';
 import adIcon from './enter.png';
+import { updateStatus, clearCompleted } from './status.js';
 
 // DOM elements
 const inHead = document.querySelector('.div-heading');
@@ -108,7 +109,7 @@ class Create {
         eachtask.style.opacity = '1';
       }
 
-      localStorage.setItem('todolist', JSON.stringify(tasks));
+      updateStatus(this.newtask.id, this.newtask.complete, tasks);
     });
 
     tbox.addEventListener('input', () => {
@@ -187,11 +188,7 @@ function displayList() {
 document.addEventListener('DOMContentLoaded', displayList);
 
 const clearCheckedTasks = () => {
-  tasks = tasks.filter((task) => !task.complete);
-  setIndex();
-  localStorage.setItem('todolist', JSON.stringify(tasks));
-  ulList.innerHTML = '';
-  displayList();
+  clearCompleted(tasks, setIndex, ulList, displayList);
 };
 
 clearall.addEventListener('click', clearCheckedTasks);
